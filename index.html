@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+
+
     <title>Criação do Layout do Blog</title>
 </head>
 
-<body class="block-content">
+<body>
 
     <header id="header" class="color-header">
         <div class="container">
@@ -33,6 +37,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Talks</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -50,7 +57,7 @@
 
     <div class="container-fluid">
 
-        <div class="row pt-5">
+        <div class="row pt-5 font-padrao">
             <div class="col-md-6 col-sm-12 rounded offset-md-1">
                 <div class="card border-light mt-3 mb-3">
                     <div class="card-body">
@@ -75,13 +82,19 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-12 bg-white rounded mt-3 mb-3">
-                
-                <div class="card ml-4" style="width: 20rem;">
-                    <img class="card-img-top rounded" src="https://avatars1.githubusercontent.com/u/22924025?s=400&u=4de8019562282e459281cd3bfea51e6a03d92948&v=4" alt="Imagem de capa do card">
+            <!--SIDEBAR -->
+            <div class="col-md-3 col-sm-12 rounded mt-3 mb-3">
+
+                <div class="card mt-1">
                     <div class="card-body">
-                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
-                            preencher o conteúdo do card.</p>
+                        <h4 class="card-title font-widget">Redes Sociais</h4>
+                        <span style="font-size: 40px;">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+
+                        <span style="font-size: 40px;">
+                            <i class="fab fa-instagram"></i>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -89,7 +102,17 @@
         </div>
 
     </div>
-    </div>
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row pt-2">
+                <div class="col-12">
+                    <p class="text-center"><i>"Nenhum <b>conhecimento</b> é proibido, apenas algumas <b>práticas</b>
+                            são" Doctor Strange</i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

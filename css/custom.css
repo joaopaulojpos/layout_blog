@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
 #header{
     height: 350px;
     background-color: #162955;
+    font-family: 'Nunito', sans-serif;
 }
 
 .nav-link{
     color: white !important;
 }
 
-.block-content{
+body{
     background-color: #f1f2f6;
+}
+
+#footer{
+    background-color: #162955;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.font-widget{
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
 }
